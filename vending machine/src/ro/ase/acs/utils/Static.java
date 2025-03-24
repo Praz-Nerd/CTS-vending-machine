@@ -17,19 +17,22 @@ public class Static {
 
     public static Map<Integer, ICommand> commandMap = new HashMap<>(){{
 
-        put(1, new ProductCreateCommand());
-        put(2, new ProductListCommand());
-        put(3, new ProductUpdateCommand());
-        put(4, new ProductDeleteCommand());
+
+        put(1, new VendingMachineCreateCommand());
+        put(2, new VendingMachineListCommand());
+        put(3, new VendingMachineUpdateCommand());
+        put(4, new VendingMachineDeleteCommand());
 
 
-        put(5, new VendingMachineCreateCommand());
-        put(6, new VendingMachineListCommand());
-        put(7, new VendingMachineUpdateCommand());
-        put(8, new VendingMachineDeleteCommand());
-        put(9, new VendingMachineMoveProductCommand());
+        put(5, new ProductCreateCommand());
+        put(6, new ProductListCommand());
+        put(7, new ProductUpdateCommand());
+        put(8, new ProductDeleteCommand());
+        put(9, new ProductListFilterCommand());
+
+
         put(10, new VendingMachineAddProductCommand());
-        put(11, new ProductListFilterCommand());
+        put(11, new VendingMachineMoveProductCommand());
 
     }};
 }

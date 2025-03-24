@@ -33,19 +33,26 @@ public class Main {
     }
 
     private static void displayMenu() {
-        System.out.println("\nChoose an option:\n" +
-                "1. Create product\n" +
-                "2. List all products\n" +
-                "3. Update product\n" +
-                "4. Delete product\n" +
-                "5. Create vending machine\n" +
-                "6. List vending machines\n" +
-                "7. Update vending machine\n" +
-                "8. Delete vending machine\n" +
-                "9. Move product between vending machines\n" +
-                "10. Add product to vending machine\n" +
-                "11. List products with filters\n" +
-                "0. Exit");
+        System.out.println("\n====== VENDING MACHINE SYSTEM ======");
+        System.out.println("Vending Machine Management:");
+        System.out.println("  1 - Create vending machine");
+        System.out.println("  2 - List vending machines");
+        System.out.println("  3 - Update vending machine");
+        System.out.println("  4 - Delete vending machine");
+
+        System.out.println("\nProduct Management:");
+        System.out.println("  5 - Create product");
+        System.out.println("  6 - List products");
+        System.out.println("  7 - Update product");
+        System.out.println("  8 - Delete product");
+        System.out.println("  9 - List products with filters");
+
+        System.out.println("\nOperations on Vending Machines:");
+        System.out.println(" 10 - Add product to vending machine");
+        System.out.println(" 11 - Move product between vending machines");
+
+        System.out.println("\n  0 - Exit");
+        System.out.print("\nSelect an option: ");
     }
 
 

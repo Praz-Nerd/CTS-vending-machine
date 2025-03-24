@@ -19,4 +19,13 @@ public class ColdCompartment extends Compartment{
         else
             System.out.println("Capacity exceeded");
     }
+
+    @Override
+    public String toString() {
+        return "ColdCompartment{" +
+                "maxCapacity=" + maxCapacity +
+                ", products=" + productList +
+                '}';
+    }
+
 }

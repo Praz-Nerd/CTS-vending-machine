@@ -19,4 +19,13 @@ public class HotCompartment extends Compartment{
         else
             System.out.println("Capacity exceeded");
     }
+
+    @Override
+    public String toString() {
+        return "HotCompartment{" +
+                "maxCapacity=" + maxCapacity +
+                ", products=" + productList +
+                '}';
+    }
+
 }

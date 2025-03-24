@@ -19,4 +19,13 @@ public abstract class Compartment {
     }
 
     public abstract void addProduct(Product product);
+
+    @Override
+    public String toString() {
+        return "Compartment{" +
+                "type=" + getClass().getSimpleName() +
+                ", maxCapacity=" + maxCapacity +
+                ", products=" + productList +
+                '}';
+    }
 }
