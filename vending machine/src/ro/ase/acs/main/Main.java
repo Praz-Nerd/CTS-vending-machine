@@ -44,7 +44,9 @@ public class Main {
                 "8. Delete vending machine\n" +
                 "9. Move product between vending machines\n" +
                 "10. Add product to vending machine\n" +
+                "11. List products with filters\n" +
                 "0. Exit");
     }
+
 
 }

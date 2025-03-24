@@ -29,6 +29,7 @@ public class Static {
         put(8, new VendingMachineDeleteCommand());
         put(9, new VendingMachineMoveProductCommand());
         put(10, new VendingMachineAddProductCommand());
+        put(11, new ProductListFilterCommand());
 
     }};
 }
